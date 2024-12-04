@@ -17,7 +17,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   final TextEditingController passwordController = TextEditingController();
 
   Future<void> signUp() async {
-  final url = Uri.parse('http://localhost:3004/createUser'); // Replace with your backend URL
+  final url = Uri.parse('http://login-git-meerath.apps.cluster-vxdz7.vxdz7.sandbox1901.opentlc.com/createUser'); // Replace with your backend URL
   
   // Prepare the data as a map
   final data = {
